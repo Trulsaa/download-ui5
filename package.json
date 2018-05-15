@@ -1,0 +1,19 @@
+{
+  "name": "download-ui5",
+  "version": "0.1.0",
+  "description": "Download OpenUI5 og SapUI5 runtime library for your project",
+  "bin": {
+    "download-ui5": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openui5",
+    "sapui5",
+    "downloader"
+  ],
+  "author": "Ronnie André Bjørvik Sletta <rsletta@gmail.com>",
+  "repository": "github:rsletta/download-ui5",
+  "license": "MIT"
+}
