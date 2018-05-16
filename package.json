@@ -2,6 +2,7 @@
   "name": "download-ui5",
   "version": "0.1.0",
   "description": "Download OpenUI5 og SapUI5 runtime library for your project",
+  "main": "bin/index.js",
   "bin": {
     "download-ui5": "bin/index.js"
   },
@@ -15,5 +16,14 @@
   ],
   "author": "Ronnie André Bjørvik Sletta <rsletta@gmail.com>",
   "repository": "github:rsletta/download-ui5",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.2.0"
+  }
 }
